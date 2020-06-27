@@ -1,0 +1,25 @@
+@import "fonts/font.css";
+
+.recipe-box{
+    flex: 0 50%;
+    max-width: 420px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.recipes .recipe-box .text {
+    min-height: 360px;
+    background: #fff;
+    padding: 0 14px;
+}
+.recipes .recipe-box .text ol li {
+    text-align: left;
+}
+.recipes .recipe-box img {
+    margin: 30px auto;
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+}
